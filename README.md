@@ -1,52 +1,83 @@
-# 🔐 CrackShield AI – The Intelligent Password Guardian
+# CrackShield AI – The Intelligent Password Guardian
 
-**CrackShield AI** is a powerful machine learning–based password analyzer built to strengthen digital hygiene. It evaluates password strength, estimates time-to-crack using real-world attack models, and provides intelligent strong password suggestions — all wrapped in a user-friendly, interactive UI inside a Jupyter Notebook.
-
----
-
-## 📂 Repository Contents
-
-- `CrackShield AI – The Intelligent Password Guardian.ipynb`:  
-  The core notebook with full UI, logic, machine learning model usage, and live news integration.
-  
-- `data.csv` & `passwords_dataset.csv`:  
-  Real-world password datasets used to train and test the AI model.
+**CrackShield AI** is a next-gen password analysis system powered by machine learning. Designed with a focus on cybersecurity and user empowerment, it intelligently evaluates password strength, estimates realistic cracking times using modern attack strategies, and provides strong password suggestions — all through a visually engaging, interactive UI built in a Jupyter Notebook.
 
 ---
 
-## 🚀 Features
+## 📁 Repository Structure
 
-- 🔍 **AI-Powered Password Strength Evaluation**
-- ⏱️ **Estimated Crack Times** using:
-  - Brute Force (10B/sec)
-  - Dictionary Attack (1M/sec)
-  - Hybrid Guessing (100M/sec)
-- 💡 **Smart Password Suggestions** (3 strong options)
-- 👁️ **Interactive UI** (built using IPyWidgets in Jupyter)
-- 📰 **Live Cybersecurity News** (via NewsData.io API)
+| File | Description |
+|------|-------------|
+| `CrackShield AI – The Intelligent Password Guardian.ipynb` | Main notebook with full UI, password analysis, prediction logic, and real-time news integration |
+| `data.csv` | Raw password data for model training |
+| `passwords_dataset.csv` | Cleaned and labeled password dataset |
 
 ---
 
-## 📦 How to Run
+## 🔧 Features Overview
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Raghavgarg5541275/CrackShield-AI---The-Intelligent-Password-Guardian.git
-   cd CrackShield-AI---The-Intelligent-Password-Guardian
-Install required packages:
-  **pip install pandas ipywidgets requests scikit-learn**
+### ✔ Password Analysis
+- Checks for lowercase, uppercase, special characters, and length
+- Trained ML model predicts strength: **Weak**, **Medium**, or **Strong**
 
-Run the notebook:
-Open the .ipynb file in Jupyter Notebook or JupyterLab and run all cells.
+### ✔ Time to Crack Estimation
+Estimates how long it would take to crack the password using:
+- **Brute Force** (10 Billion guesses/sec)
+- **Dictionary Attack** (1 Million guesses/sec)
+- **Hybrid Guessing** (100 Million guesses/sec)
 
-🎓 Educational Value
-This project was created as part of the AlgoNinjas initiative at Bennett University, aiming to combine AI, cybersecurity awareness, and interactive UI design.
+### ✔ Strong Password Suggestions
+- Generates **3 intelligent password suggestions**
+- Allows optional inclusion of **user-specified custom word**
+- Shows strength and time-to-crack for each suggestion
+- **Visual side-by-side comparison** with the original password
 
-🙋‍♂️ Made By
+### ✔ Interactive User Interface
+- Built with **IPyWidgets**
+- Styled with HTML/CSS for professional appearance
+- Real-time user feedback and validations
+
+### ✔ Live Cybersecurity News
+- Uses [NewsData.io](https://newsdata.io/) API to fetch current news on:
+  - Password leaks
+  - Cybersecurity threats
+  - Solutions and education
+
+---
+
+## ▶️ How to Run
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Raghavgarg5541275/CrackShield-AI---The-Intelligent-Password-Guardian.git
+cd CrackShield-AI---The-Intelligent-Password-Guardian
+```
+2. Install Dependencies
+```bash
+   pip install pandas ipywidgets requests scikit-learn
+```
+3. Launch Notebook
+Open the **.ipynb** file in Jupyter Notebook or JupyterLab and run all cells sequentially.
+
+🎓 Academic Purpose
+This project was developed under the AlgoNinjas Program at Bennett University.
+It combines:
+- Machine Learning
+- Cybersecurity Awareness
+- UI/UX Best Practices
+…to create an educational yet impactful tool.
+
+👤 Developed By
+
 Raghav Garg
-B.Tech CSE (AI)
+
+B.Tech CSE (Artificial Intelligence)
+
 Bennett University
 
-🙏 Thanks
-Thank you for checking out CrackShield AI.
-If you found it useful or interesting, feel free to ⭐ star the repo!
+[LinkedIn](https://linkedin.com/in/raghavgarg5541275)  
+
+[GitHub](https://github.com/Raghavgarg5541275)
+
+⭐ **Contribute or Star**
+If you find this project helpful or interesting, don’t forget to star the repo or suggest improvements via pull requests or issues.
