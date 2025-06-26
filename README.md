@@ -34,7 +34,8 @@
    git clone https://github.com/Raghavgarg5541275/CrackShield-AI---The-Intelligent-Password-Guardian.git
    cd CrackShield-AI---The-Intelligent-Password-Guardian
 Install required packages:
-pip install pandas ipywidgets requests scikit-learn
+  **pip install pandas ipywidgets requests scikit-learn**
+
 Run the notebook:
 Open the .ipynb file in Jupyter Notebook or JupyterLab and run all cells.
 
